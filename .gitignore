@@ -30,11 +30,14 @@ node_modules
 *.map
 */*.map
 *-lock.*
+**/.DS_Store
+**/.publish
+*/.DS_Store
+dist/**/*
 
 # never gonna push any of these files
 js/tmp/*
 client_secret.json
 src/assets/img/*
-
 
 CNAME

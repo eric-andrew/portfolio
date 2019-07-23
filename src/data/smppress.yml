@@ -7,7 +7,7 @@
   images:
     -
       img: dashboard3.png
-      caption: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      caption: We had a free tile space to use after giving the user the ability to view & edit their latest updates. This is a mockup with a progress idea.
       active: true
 -
   id: search
@@ -47,6 +47,6 @@
   paragraph: <p>SMP Press relies on user generated content to bring in revenue an keep the lights on. Before I arrived, the form was four times as long as the one you see here complete with a giant cluster or checkboxes. My goal was to move the user through the necessary sections with an understanding of their progress. In order to make it delightful and easier to navigate, I added colored-coded drill downs, and hide/show simple animations.</p>
   images:
     -
-      img: form-tile.png
+      img: forms-tile.png
       caption: I broke up a long and arduous process by giving the user context clues as to their progress. I made it delightful by adding color to the categories.
       active: true

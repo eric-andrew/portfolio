@@ -42,4 +42,4 @@ archive:
     bgColor:  bg-blue-900
     headline: A SAP cloud solution for permanent and contingent labor management.
     imgPath : sap/new-twfmgmt-tile.png
-    textColor: white
+    textColor: black

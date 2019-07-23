@@ -64,10 +64,10 @@ p {
       -ms-transform: rotate(-180deg);
           transform: rotate(-180deg);
 }
-#work .work-tile {
+.work-tile {
   transition: all .3s .1s;
 }
-#work .work-tile:hover {
+.work-tile:hover {
   transform: scale(1.02);
 }
 .separator {

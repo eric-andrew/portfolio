@@ -99,6 +99,7 @@ function deploy() {
 
 
 const build = gulp.series(clean, gulp.parallel(css, images, html, js, deploy));
+exports.deploy = deploy;
 exports.build = build;
 exports.html = html;
 exports.css = css;
