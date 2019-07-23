@@ -1,0 +1,45 @@
+{
+  "name": "portfolio ",
+  "description": "eric andrew's ux / visual design / web dev portfolio",
+  "version": "0.3.2",
+  "author": {
+    "name": "Eric Andrew",
+    "email": "hello@eric-andrew.com",
+    "url": "https://eric-andrew.com"
+  },
+  "keywords": [
+    "eric",
+    "andrew",
+    "eric-andrew",
+    "eric-downtown",
+    "portfolio",
+    "downtown",
+    "designer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eric-andrew/portfolio.git"
+  },
+  "contributors": "https://github.com/eric-andrew/portfolio/graphs/contributors",
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "browser-sync": "^2.26.5",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "panini": "^1.6.3",
+    "postcss-apply": "^0.12.0",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.0.2"
+  },
+  "dependencies": {}
+}

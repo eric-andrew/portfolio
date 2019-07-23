@@ -1,0 +1,7 @@
+@import "reboot";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "animate";
+@import "bootstrap";
+@import "theme";
