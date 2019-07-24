@@ -33,7 +33,7 @@ node_modules
 **/.DS_Store
 **/.publish
 */.DS_Store
-dist/**/*
+
 
 # never gonna push any of these files
 js/tmp/*
