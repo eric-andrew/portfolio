@@ -130,7 +130,7 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
-      display: ['Source Sans Pro', 'sans-serif'],
+      display: ['Tofino-Semibold', 'sans-serif'],
       body: ['Source Serif Pro', 'serif'],
       sans: [
         'Source Sans Pro',
