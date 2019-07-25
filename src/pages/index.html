@@ -5,7 +5,7 @@ description: Let's start here / Designer Eric Andrew Mackey aka Downtown
 <div id="masthead" class="container">
 	<div class="flex">
 		<div class="sm:w-full md:w-full lg:w-3/4 px-6 pt-12">
-			<h3>Hello! My name is Eric.</h3>
+			<h1>Hello! My name is Eric.</h1>
 			<p class="text-xl">I’m a Product Designer and I enjoy writing code.
 			<a class="text-sm font-normal hover:no-underline color-gray-500" href="https://github.com/eric-andrew">(you can check out the github repo for this project.)</a>
       </p>
@@ -18,11 +18,11 @@ description: Let's start here / Designer Eric Andrew Mackey aka Downtown
 	{{#each home.featured}}
 	<section id="{{id}}" class="work-tile hover:shadow-xl container {{bgColor}}">
 		<a href="/{{id}}.html" class="flex hover:no-underline flex-wrap px-10 pt-4 my-12 items-center text-{{textColor}} hover:text-{{textColor}}">
-			<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-1/2">
+			<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
 				<h3 class="font-display text-{{textColor}} hover:text-{{textColor}}">{{title}}</h3>
 				<p class="pr-10 text-{{textColor}} hover:text-{{textColor}}">{{headline}}</p>
 			</div>
-			<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 w-1/2">
+			<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2">
 				<img class="mb-0 mx-auto" src="{{root}}assets/{{imgPath}}" alt="">
 			</div>
 		</a>

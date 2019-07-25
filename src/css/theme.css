@@ -125,6 +125,8 @@ figure > figcaption {
 @media (max-width: 400px) {
   #photo_break {
     height: 30vh;
+    width: 100vw;
+    margin-bottom: 1rem;
   }
 }
 #homepage_break {
