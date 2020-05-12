@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap');
-@font-face {
-  font-family: 'Tofino-Semibold';
-  src: url('../assets/font/Tofino-Semibold.eot'); /* IE9 Compat Modes */
-  src: url('../assets/font/Tofino-Semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../assets/font/Tofino-Semibold.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../assets/font/Tofino-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../assets/font/Tofino-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../assets/font/Tofino-Semibold.svg') format('svg'); /* Legacy iOS */
-}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400,700&family=Source+Serif+Pro&display=swap');
 
 *,
 *::before,
@@ -16,7 +7,6 @@
 }
 
 html {
-  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -27,10 +17,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.6;
   color: #212529;
   text-align: left;
   background-color: #fff;

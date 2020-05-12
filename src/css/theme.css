@@ -1,62 +1,45 @@
 body {
-  font-family: 'Source Serif Pro', serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.81818181818;
-  color: #0E0C07;
   background-color: #fff;
   scroll-behavior: smooth;
 }
-b {
-  font-weight: 700;
-  color: #80A5A5;
-}
-em {
-  @apply text-red-900;
-  font-style: normal;
-}
 h1, .h1 {
-  @apply font-display text-4xl;
+  @apply font-display text-2xl;
   font-weight: 600;
-  letter-spacing: 2px;
   margin-bottom: 20px;
 }
 h2, .h2 {
   @apply font-display text-3xl;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing: 2px;
   margin-bottom: 20px;
 }
-
 h3, .h3 {
-  @apply font-display text-2xl tracking-wider;
+  @apply font-display text-2xl;
   font-weight: 600;
   margin-bottom: 10px;
 }
-
 h4, .h4 {
   @apply font-display text-xl tracking-wide;
   font-weight: 600;
   margin-bottom: 10px;
 }
-
 h5, .h5 {
-  @apply font-display text-xl tracking-widest uppercase;
+  @apply text-xs tracking-widest ;
+  text-transform: uppercase;
   margin-top: 12px;
 }
-
 h6, .h6 {
   font-size: 14px;
   font-weight: 700;
-  letter-spacing: 0.5px;
 }
 p {
+  @apply text-base;
   padding: 0 0 1rem 0;
-  letter-spacing: .25px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 #pulldown i {
+  padding-top: 3px;
   transition: transform 0.4s ease-in-out;
 }
 #pulldown[aria-expanded="true"] > i {
@@ -84,7 +67,12 @@ li > a {
   color: #0E0C07;
   font-weight: bold;
   text-decoration: none;
-  transition: .3s all;
+  transition: .2s all;
+}
+.button {
+  border-radius: 3px;
+  color: #fff;
+  padding: 8px 12px;
 }
 nav a {
   text-decoration: none;
@@ -109,7 +97,6 @@ figure > img {
 figure > figcaption {
   @apply self-end font-sans;
 }
-
 #suggested .two-links {
   justify-content: space-between;
 }
@@ -185,16 +172,13 @@ footer > ul {
   footer > .inner ul#socials {
     display: none;
   }
-
   .container {
     max-width: 1200px;
     margin: 0 auto;
   }
-
   #SAP #twfmgmt {
     width: 100%;
   }
-
   #SAP img:not(#sap-logo) {
     max-width: 100%;
     min-width: 75%;

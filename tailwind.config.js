@@ -130,10 +130,9 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
-      display: ['Tofino-Semibold', 'sans-serif'],
-      body: ['Source Serif Pro', 'serif'],
+      display: ['Tofino Semibold', 'sans-serif'],
+      body: ['sans-serif'],
       sans: [
-        'Source Sans Pro',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',

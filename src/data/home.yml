@@ -1,6 +1,16 @@
 featured:
+
+  -
+    id: anomali
+    title: Anomali
+    year: 2020
+    bgColor:  bg-gray-100
+    headline: Threat Intelligence Platform.
+    imgPath : smppress/smppress-tile.png
+    textColor: black
   -
     id: smppress
+    year: 2018-2019
     title: SMP Press
     bgColor:  bg-gray-100
     headline: A self-publishing platform for musicians in all genres and disciplines.
@@ -8,6 +18,7 @@ featured:
     textColor: black
   -
     id: sheetmusicplus
+    year: 2019
     title: Sheet Music Plus
     bgColor:  bg-orange
     headline: The largest online retailer of sheet music.
@@ -15,22 +26,25 @@ featured:
     textColor: black
   -
     id: build
+    year: 2016-2017
     title: Build
     bgColor:  bg-green-300
     headline: An accessible prototyping tool for SAP customers to design custom, robust Fiori applications and kickstart development with deployment ready code.
     imgPath : sap/new-build-tile.png
-    textColor: white
+    textColor: black
   -
     id: fiori
+    year: 2015
     title: Fiori Design Guidelines
     bgColor:  bg-gray-700
     headline: The single source of truth, principles and fundamentals for SAP Fiori designers.
     imgPath : sap/new-fiori-tile.png
-    textColor: white
+    textColor: black
 
 archive:
   -
     id: ripen
+    year: 2018
     title: Ripen
     bgColor:  bg-red-100
     headline: Beautifully crafted gathering boards curated with ingredients from small local farms, creameries, and makers.
@@ -38,6 +52,7 @@ archive:
     textColor: black
   -
     id: twfmgmt
+    year: 2014
     title: Total Workforce Management
     bgColor:  bg-blue-900
     headline: A SAP cloud solution for permanent and contingent labor management.
