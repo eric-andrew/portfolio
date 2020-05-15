@@ -22,13 +22,13 @@
   },
   "contributors": "https://github.com/eric-andrew/portfolio/graphs/contributors",
   "devDependencies": {
-    "autoprefixer": "^9.5.1",
+    "autoprefixer": "^9.7.6",
     "browser-sync": "^2.26.5",
     "cssnano": "^4.1.10",
     "del": "^4.1.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "gulp-file-include": "^2.0.1",
+    "gulp-file-include": "^2.2.2",
     "gulp-gh-pages": "^0.5.4",
     "gulp-imagemin": "^5.0.3",
     "gulp-plumber": "^1.2.1",
@@ -39,7 +39,9 @@
     "panini": "^1.6.3",
     "postcss-apply": "^0.12.0",
     "postcss-import": "^12.0.1",
-    "tailwindcss": "^1.0.2"
+    "tailwindcss": "^1.4.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gift": "^0.10.2"
+  }
 }
