@@ -6,13 +6,13 @@ module.exports = {
     screens: {
       sm: '640px',
       md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      lg: '1024px'
+      //xl: '1280px',
     },
     colors: {
       transparent: 'transparent',
       cream: '#20312C',
-      black: '#0E0C07;',
+      black: '#212425;',
       red: {
         100: '#e2b8b4',
         900: '#6D2C20'
@@ -28,10 +28,13 @@ module.exports = {
       blue: {
         100: '#80A5A5',
         200: '#42788C',
+        300: '#0056B3',
+        800: '#003A7A',
         900: '#0b416e'
       },
       gray: {
         100: '#eff3f6',
+        200: '#CED2D6',
         300: '#a5a5a5',
         400: '#cbd5e0',
         500: '#737B8B',
@@ -130,9 +133,10 @@ module.exports = {
       default: '1',
     },
     fontFamily: {
-      display: ['Tofino Semibold', 'sans-serif'],
-      body: ['sans-serif'],
+      display: ['Tofino-Semibold', 'sans-serif'],
+      body: ['Libre Franklin','sans-serif'],
       sans: [
+        'Libre Franklin',
         '-apple-system',
         'BlinkMacSystemFont',
         '"Segoe UI"',
@@ -147,6 +151,7 @@ module.exports = {
         '"Noto Color Emoji"',
       ],
       serif: [
+        'Source Serif Pro',
         'Georgia',
         'Cambria',
         '"Times New Roman"',
@@ -165,7 +170,7 @@ module.exports = {
     fontSize: {
       xs: '0.75rem',
       sm: '0.875rem',
-      base: '1rem',
+      base: '0.875rem',
       lg: '1.125rem',
       xl: '1.25rem',
       '2xl': '1.5rem',

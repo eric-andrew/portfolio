@@ -4,28 +4,30 @@ description: Let's start here / Designer Eric Andrew Mackey aka Downtown
 ---
 <div id="masthead" class="container">
 	<div class="flex">
-		<div class="sm:w-full md:w-full lg:w-1/2 px-6 py-12">
-			<h1>Hello! My name is Eric.</h1>
-			<p class="text-gray-700">I’m a Product Designer and I enjoy writing code.
-      </p>
-			<p class="text-gray-700">Over seven years, my portfolio has included projects in UX/UI, design systems, branding & identity, front-end development, and graphic design. In such industries as cybersecurity, e-commerce, local small business and fortune 500 big tech. —no challenge is too big or too small.</p>
-			<button href="mailto:hello@eric-andrew.com?subject=[hey! from your portfolio]" class="bg-blue-300 button btn text-sm text-white">
-				<i class="far fa-envelope pr-1 text-white fill-current"></i> Email me</button>
+		<div class="sm:w-full md:w-full lg:w-2/3 px-6 py-12">
+			<h1 class="text-black">Hello! My name is Eric.</h1>
+			<p class="text-gray-700">I’m a Product Designer based in Oakland, California.</p>
+			<p class="text-gray-700">Over seven years, my portfolio has included projects in UX/UI, design systems, branding & identity, front-end development, and graphic design. In such industries as cybersecurity, e-commerce, local small business and fortune 500 big tech. </p>
+			<p> I specialize in product design and focus on pragmatic, easy to use interfaces. I believe in minimalism. I love crossfit and do yoga regularly. I'm driven by a desire to liftup those around me.</p>
+			<button href="mailto:hello@eric-andrew.com?subject=[hello!]" class="button" id="homeBtn">
+				<i class="far fa-envelope text-white fill-current"></i> Email me </button>
 		</div>
 	</div>
 </div>
 
-<div id="work" class="bg-gray-200 py-1 mb-12">
+<div id="work" class="py-1 mb-12">
 	{{#each home.featured}}
 	<section id="{{id}}" class="work-tile hover:shadow-xl container">
-		<a href="/{{id}}.html" class="flex bg-white hover:no-underline flex-wrap my-12 items-center text-{{textColor}} hover:text-{{textColor}}">
-			<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 p-6">
-				<h5 class=" hover:text-{{textColor}}">{{year}}</h5>
-				<h3 class="font-display text-{{textColor}} hover:text-{{textColor}}">{{title}}</h3>
-				<p class="text-{{textColor}} hover:text-{{textColor}}">{{headline}}</p>
-			</div>
+		<a href="/{{id}}.html" class="flex border rounded bg-white hover:no-underline flex-wrap my-12 hover:text-black">
 			<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 {{bgColor}}">
 				<img class="mb-0 mx-auto" src="{{root}}assets/{{imgPath}}" alt="">
+			</div>
+			<div class="flex flex-col sm:w-full md:w-full lg:w-1/2 xl:w-1/2 py-6 px-8">
+				<h5 class="flex-1 font-serif font-xs text-gray-600">{{year}} · {{jobRole}}</h5>
+				<div class="flex-auto">
+					<h3 class="font-display text-black">{{title}}</h3>
+					<p class="">{{headline}}</p>
+				</div>
 			</div>
 		</a>
 	</section>
@@ -33,10 +35,11 @@ description: Let's start here / Designer Eric Andrew Mackey aka Downtown
 </div>
 <div id="archive">
 	<div class="container mb-6">
-		<div class="flex flex-wrap -mx-3">
+		<div class="flex flex-col">
+			<h3 class="px-6 font-display text-black">Archive</h3>
 			{{#each home.archive}}
-			<a href="/{{id}}.html" class="work-tile max-w-sm lg:w-1/3 rounded border overflow-hidden mx-3 mb-16 cursor-pointer hover:shadow-xl hover:no-underline hover:text-{{textColor}}">
-				<img class="w-full" src="{{root}}assets/{{imgPath}}" />
+			<a href="/{{id}}.html" class="overflow-hidden m-2 cursor-pointer hover:no-underline">
+				<!-- <img class="w-full" src="{{root}}assets/{{imgPath}}" /> -->
 				<div class="px-6 py-4">
 					<h4 class="mb-2 hover:text-{{textColor}}">{{title}}</h4>
 					<p class="text-gray-700 text-base">{{headline}}</p>

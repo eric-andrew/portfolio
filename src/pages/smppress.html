@@ -1,8 +1,6 @@
 ---
 title: SMP Press
-description: Sheet Music Plus has created a self publishing platform for musicians to publish and sell their arrangements of originals, songs in the public domain, and a selection of copyrighted songs.
-bgColor: bg-gray-100
-textWhite: false
+description: Sheet Music Plus is a self publishing platform for musicians to publish and sell their arrangements of originals, songs in the public domain, and a selection of copyrighted songs.
 roles:
 - User Research
 - User Experience Design
@@ -16,12 +14,10 @@ tools:
 - Ember.js
 next: Sheet Music Plus
 nextLink: /sheetmusicplus.html
-prev: false
-prevLink: false
 ---
 <div class="container">
 	<div class="flex lg:w-2/3 flex-col justify-center p-6">
-		<h4>The Problem</h4>
+		<h4>Problem</h4>
 		<p>We needed to drive sign ups and submissions on the site. Our users are pretty small subset of the population i.e. musicians that read, write and create sheet music. In order to increase conversions and get users to submit their work, we had to provide a well rounded experience on all fronts.</p>
 	</div>
 </div>
@@ -39,7 +35,7 @@ prevLink: false
 				{{#each images}}
 					<figure>
 						<img class="shadow-lg border border-gray-300 w-full" src="{{root}}assets/smppress/{{img}}" />
-						<figcaption class="text-sm text-gray-700">{{caption}}</figcaption>
+						<figcaption>{{caption}}</figcaption>
 					</figure>
 				{{/each}}
 			</div>

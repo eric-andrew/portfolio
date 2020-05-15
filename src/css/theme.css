@@ -1,10 +1,11 @@
 body {
   background-color: #fff;
   scroll-behavior: smooth;
+  @apply text-gray-700;
 }
 h1, .h1 {
-  @apply font-display text-2xl;
-  font-weight: 600;
+  @apply font-display text-4xl;
+  letter-spacing: .5px;
   margin-bottom: 20px;
 }
 h2, .h2 {
@@ -15,17 +16,14 @@ h2, .h2 {
 }
 h3, .h3 {
   @apply font-display text-2xl;
-  font-weight: 600;
   margin-bottom: 10px;
 }
 h4, .h4 {
   @apply font-display text-xl tracking-wide;
-  font-weight: 600;
   margin-bottom: 10px;
 }
 h5, .h5 {
-  @apply text-xs tracking-widest ;
-  text-transform: uppercase;
+  @apply text-xs tracking-wide font-normal;
   margin-top: 12px;
 }
 h6, .h6 {
@@ -33,7 +31,7 @@ h6, .h6 {
   font-weight: 700;
 }
 p {
-  @apply text-base;
+  @apply text-base text-gray-700;
   padding: 0 0 1rem 0;
   font-size: 0.875rem;
   font-weight: 400;
@@ -53,8 +51,18 @@ p {
 .work-tile:hover {
   transform: scale(1.02);
 }
+.work-tile > a > div > img {
+  border-radius: 3px 0px 0px 3px;
+}
+#anomali.work-tile > a > div:first-child {
+  background-image: linear-gradient(270deg, #445C67 0%, #586A75 100%);
+}
+#anomali.work-tile > a > div > img {
+  padding: 40px;
+  height: 367px;
+}
 .separator {
-  width: 200px;
+  width: 130px;
   margin: 2px 0 12px;
   content: "";
   display: block;
@@ -64,16 +72,27 @@ p {
 a,
 p > a,
 li > a {
-  color: #0E0C07;
-  font-weight: bold;
   text-decoration: none;
   transition: .2s all;
 }
 .button {
+  @apply bg-blue-300 text-white;
   border-radius: 3px;
-  color: #fff;
   padding: 8px 12px;
 }
+.button > i { @apply px-2; }
+
+.button:hover {
+  @apply bg-blue-800 text-white;
+  text-decoration: none;
+}
+.button.next {
+  padding: 8px 12px 8px 20px;
+}
+.button#homeBtn {
+  padding: 8px 22px 8px 12px;
+}
+
 nav a {
   text-decoration: none;
   font-weight: 400;
@@ -95,7 +114,7 @@ figure > img {
   margin-bottom: 0.75rem;
 }
 figure > figcaption {
-  @apply self-end font-sans;
+  @apply self-end font-serif text-gray-600 text-xs;
 }
 #suggested .two-links {
   justify-content: space-between;
@@ -171,10 +190,6 @@ footer > ul {
 @media (min-width: 1025px) {
   footer > .inner ul#socials {
     display: none;
-  }
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
   }
   #SAP #twfmgmt {
     width: 100%;

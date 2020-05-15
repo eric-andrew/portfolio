@@ -1,31 +1,21 @@
-<div class="{{bgColor}} mb-16">
-	<div class="flex container flex-wrap ">
-		<div class="sm:w-full md:w-full lg:w-1/2 px-6 py-12 {{#if textWhite}}text-white{{/if}}">
-			<h3>{{title}}</h3>
-			<p class="animated px-0">{{description}}</p>
-
-		</div>
-		<div class="sm:w-full md:w-full lg:w-1/4 px-6 py-12 text-base {{#if textWhite}}text-white{{/if}}">
-			<h5 class=""
-			{{#ifpage 'fiori' 'twfmgmt'}}text-gray-600{{/ifpage}}
-			{{#ifpage 'sheetmusicplus'}}text-gray-700{{/ifpage}}">My Roles</h5>
-			<div class="separator border-gray-200 {{#ifpage 'ripen' 'build'}}border-white{{/ifpage}}"></div>
-			<ul>
-				{{#each roles}}
-				<li class="font-sans">{{this}}</li>
-				{{/each}}
-			</ul>
-		</div>
-		<div class="sm:w-full md:w-full lg:w-1/4 px-6 py-12 text-base {{#if textWhite}}text-white{{/if}}">
-			<h5 class=""
-			{{#ifpage 'fiori''twfmgmt'}}text-gray-600{{/ifpage}}
-			{{#ifpage 'sheetmusicplus'}}text-gray-700{{/ifpage}}">Tools</h5>
-			<div class="separator border-gray-200 {{#ifpage 'ripen' 'build'}}border-white{{/ifpage}}"></div>
-			<ul>
-				{{#each tools}}
-				<li class="font-sans">{{this}}</li>
-				{{/each}}
-			</ul>
-		</div>
+<div class="flex container flex-wrap">
+	<div class="sm:w-full md:w-full lg:w-2/3 px-6 py-12">
+		<h5>{{years}}</h5>
+		<h3>{{title}}</h3>
+		<p class="animated px-0">{{description}}</p>
+		<h5 class="font-serif">My Roles</h5>
+		<div class="separator border-gray-200"></div>
+		<ul>
+			{{#each roles}}
+			<li class="">{{this}}</li>
+			{{/each}}
+		</ul>
+		<h5 class="font-serif">Tools</h5>
+		<div class="separator border-gray-200"></div>
+		<ul>
+			{{#each tools}}
+			<li class="">{{this}}</li>
+			{{/each}}
+		</ul>
 	</div>
 </div>

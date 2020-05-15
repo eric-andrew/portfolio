@@ -32,8 +32,9 @@ node_modules
 *-lock.*
 **/.DS_Store
 **/.publish
-*/.DS_Store
-dist/**/*
+**/*/.DS_Store
+src/.DS_Store
+
 
 # never gonna push any of these files
 js/tmp/*

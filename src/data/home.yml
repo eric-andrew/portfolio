@@ -1,60 +1,52 @@
 featured:
-
   -
     id: anomali
     title: Anomali
     year: 2020
-    bgColor:  bg-gray-100
-    headline: Threat Intelligence Platform.
-    imgPath : smppress/smppress-tile.png
-    textColor: black
+    headline: The world's most powerful and popular Threat Intelligence Platform.
+    imgPath: anomali/anomali-match-graphic.png
+    jobRole: Senior UX Designer
   -
     id: smppress
     year: 2018-2019
     title: SMP Press
-    bgColor:  bg-gray-100
     headline: A self-publishing platform for musicians in all genres and disciplines.
-    imgPath : smppress/smppress-tile.png
-    textColor: black
-  -
-    id: sheetmusicplus
-    year: 2019
-    title: Sheet Music Plus
-    bgColor:  bg-orange
-    headline: The largest online retailer of sheet music.
-    imgPath : smp/new-smp-tile.png
-    textColor: black
+    imgPath: smppress/smppress-tile.png
+    jobRole: UX Designer + UI Developer
   -
     id: build
     year: 2016-2017
     title: Build
-    bgColor:  bg-green-300
     headline: An accessible prototyping tool for SAP customers to design custom, robust Fiori applications and kickstart development with deployment ready code.
-    imgPath : sap/new-build-tile.png
-    textColor: black
-  -
-    id: fiori
-    year: 2015
-    title: Fiori Design Guidelines
-    bgColor:  bg-gray-700
-    headline: The single source of truth, principles and fundamentals for SAP Fiori designers.
-    imgPath : sap/new-fiori-tile.png
-    textColor: black
+    imgPath: sap/new-build-tile.png
+    jobRole: UI Developer
 
 archive:
+  -
+    id: sheetmusicplus
+    year: 2018-2019
+    title: Sheet Music Plus
+    headline: The largest online retailer of sheet music.
+    imgPath: smp/new-smp-tile.png
+    jobRole: UX + Graphic Designer
   -
     id: ripen
     year: 2018
     title: Ripen
-    bgColor:  bg-red-100
     headline: Beautifully crafted gathering boards curated with ingredients from small local farms, creameries, and makers.
-    imgPath : ripen/new-ripen-tile.png
-    textColor: black
+    imgPath: ripen/new-ripen-tile.png
+    jobRole: UX / Brand Designer + UI Developer
+  -
+    id: fiori
+    year: 2015
+    title: Fiori Design Guidelines
+    headline: The single source of truth, principles and fundamentals for SAP Fiori designers.
+    imgPath: sap/new-fiori-tile.png
+    jobRole: UX Designer + UI Developer
   -
     id: twfmgmt
     year: 2014
     title: Total Workforce Management
-    bgColor:  bg-blue-900
     headline: A SAP cloud solution for permanent and contingent labor management.
-    imgPath : sap/new-twfmgmt-tile.png
-    textColor: black
+    imgPath: sap/new-twfmgmt-tile.png
+    jobRole: UX Designer + UI Developer
