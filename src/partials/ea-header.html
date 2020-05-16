@@ -49,10 +49,15 @@
     <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
       <div class="flex lg:flex-grow lg:justify-end">
         {{#unlesspage 'index'}}
-        <a href="/#work" class="block text-black text-sm font-serif mt-4 lg:inline-block lg:mt-0 mr-8 hover:no-underline">
-          work
-        </a>
+          <a href="/#work" class="block text-black text-sm font-serif mt-4 lg:inline-block lg:mt-0 mr-8 hover:no-underline">
+            work
+          </a>
         {{/unlesspage}}
+        {{#ifpage 'index'}}
+          <a href="#work" class="work_link block text-black text-sm font-serif mt-4 lg:inline-block lg:mt-0 mr-8 hover:no-underline">
+            work
+          </a>
+        {{/ifpage}}
         <a href="/about.html" class="block text-black text-sm font-serif mt-4 lg:inline-block lg:mt-0 mr-8 hover:no-underline">
           about
         </a>

@@ -6,41 +6,53 @@ description: Let's start here / Designer Eric Andrew Mackey aka Downtown
 	<div class="flex">
 		<div class="sm:w-full md:w-full lg:w-2/3 px-6 py-12">
 			<h1 class="text-black">Hello! My name is Eric.</h1>
-			<p class="text-gray-700">I’m a Product Designer based in Oakland, California.</p>
-			<p class="text-gray-700">Over seven years, my portfolio has included projects in UX/UI, design systems, branding & identity, front-end development, and graphic design. In such industries as cybersecurity, e-commerce, local small business and fortune 500 big tech. </p>
-			<p> I specialize in product design and focus on pragmatic, easy to use interfaces. I believe in minimalism. I love crossfit and do yoga regularly. I'm driven by a desire to liftup those around me.</p>
-			<button href="mailto:hello@eric-andrew.com?subject=[hello!]" class="button" id="homeBtn">
-				<i class="far fa-envelope text-white fill-current"></i> Email me </button>
+			<p class="text-gray-700">I’m a Human Being and Product Designer based in Oakland, California.</p>
+			<p class="text-gray-700">Over seven years, my portfolio has included projects in UX/UI, design systems, branding & identity, and front-end development in industries such as cybersecurity, e-commerce, local small business and fortune 500 big tech. </p>
+			<p> I specialize in designing pragmatic, easy to use interfaces. I believe in minimalism and transparency. I love crossfit and do yoga regularly. I'm driven by a desire to lift up those around me.</p>
+			<a href="mailto:hello@eric-andrew.com?subject=[hello!]" target="_blank" class="button mr-2 home-btn">
+				<i class="far fa-envelope text-white fill-current"></i> Email me </a>
+
+			<a href="https://linkedin.com/in/eric-mackey" target="_blank" class="button ml-2 home-btn">
+				<i class="fab fa-linkedin-in fill-current"></i></i> Connect </a>
 		</div>
 	</div>
 </div>
 
 <div id="work" class="py-1 mb-12">
-	{{#each home.featured}}
-	<section id="{{id}}" class="work-tile hover:shadow-xl container">
-		<a href="/{{id}}.html" class="flex border rounded bg-white hover:no-underline flex-wrap my-12 hover:text-black">
-			<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 {{bgColor}}">
-				<img class="mb-0 mx-auto" src="{{root}}assets/{{imgPath}}" alt="">
+	<section id="{{id}}" class="container">	
+		<div class="px-6">
+			<h6 class="font-display text-gray-500 title-h6 pl-1">Latest</h6>
+			<div class="separator border-gray-200"></div>
+		</div>
+		{{#each home.featured}}
+			<div id="{{id}}" class="work-tile hover:shadow-xl">
+				<a href="/{{id}}.html" class="flex border rounded bg-white hover:no-underline flex-wrap my-12 hover:text-black">
+					<div class="sm:w-full md:w-full lg:w-1/2 xl:w-1/2 {{bgColor}}">
+						<img class="mb-0 mx-auto" src="{{root}}assets/{{imgPath}}" alt="">
+					</div>
+					<div class="flex flex-col sm:w-full md:w-full lg:w-1/2 xl:w-1/2 py-6 px-8">
+						<h5 class="flex-1 font-serif font-xs text-gray-600">{{year}} · {{jobRole}}</h5>
+						<div class="flex-auto">
+							<h3 class="font-display text-black">{{title}}</h3>
+							<p class="">{{headline}}</p>
+						</div>
+					</div>
+				</a>
 			</div>
-			<div class="flex flex-col sm:w-full md:w-full lg:w-1/2 xl:w-1/2 py-6 px-8">
-				<h5 class="flex-1 font-serif font-xs text-gray-600">{{year}} · {{jobRole}}</h5>
-				<div class="flex-auto">
-					<h3 class="font-display text-black">{{title}}</h3>
-					<p class="">{{headline}}</p>
-				</div>
-			</div>
-		</a>
+		{{/each}}
 	</section>
-	{{/each}}
 </div>
 <div id="archive">
 	<div class="container mb-6">
 		<div class="flex flex-col">
-			<h3 class="px-6 font-display text-black">Archive</h3>
+			<div class="px-6">
+				<h6 class="font-display text-gray-500 title-h6 pl-1">Archive</h6>
+				<div class="separator border-gray-200"></div>
+			</div>
 			{{#each home.archive}}
-			<a href="/{{id}}.html" class="overflow-hidden m-2 cursor-pointer hover:no-underline">
+			<a href="/{{id}}.html" class="overflow-hidden cursor-pointer hover:no-underline">
 				<!-- <img class="w-full" src="{{root}}assets/{{imgPath}}" /> -->
-				<div class="px-6 py-4">
+				<div class="px-6 py-2">
 					<h4 class="mb-2 hover:text-{{textColor}}">{{title}}</h4>
 					<p class="text-gray-700 text-base">{{headline}}</p>
 				</div>

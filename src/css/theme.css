@@ -30,6 +30,11 @@ h6, .h6 {
   font-size: 14px;
   font-weight: 700;
 }
+.title-h6 {
+  text-transform: uppercase;
+  letter-spacing: .2em; 
+  font-size: 12px;
+}
 p {
   @apply text-base text-gray-700;
   padding: 0 0 1rem 0;
@@ -54,7 +59,7 @@ p {
 .work-tile > a > div > img {
   border-radius: 3px 0px 0px 3px;
 }
-#anomali.work-tile > a > div:first-child {
+#anomali.work-tile > a  > div:first-child {
   background-image: linear-gradient(270deg, #445C67 0%, #586A75 100%);
 }
 #anomali.work-tile > a > div > img {
@@ -83,14 +88,15 @@ li > a {
 .button > i { @apply px-2; }
 
 .button:hover {
-  @apply bg-blue-800 text-white;
+  @apply bg-blue-800 text-white shadow-lg;
+  transform: scale(1.02);
   text-decoration: none;
 }
 .button.next {
   padding: 8px 12px 8px 20px;
 }
-.button#homeBtn {
-  padding: 8px 22px 8px 12px;
+.button.home-btn {
+  padding: 10px 22px 10px 12px;
 }
 
 nav a {

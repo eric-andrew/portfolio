@@ -19,6 +19,20 @@
 		});
 	}
 
+	if(window.location.hash) {
+	    var hash = window.location.hash,
+         id   = hash.slice(1),
+         elem = document.getElementById(id);
+	    
+	    scroll(0,0);
+		setTimeout(function(){scroll(0,0);},1);
+
+		setTimeout( function(){ 
+			scrollToSection(elem); 
+		}, 1000);
+
+	}
+
 	function scrollToSection(element) {
 		window.scrollTo({
     		'behavior': 'smooth',
